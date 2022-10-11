@@ -1,0 +1,275 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.container-1 {
+    height: 82vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,1)), url(images/Netflix-Background.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-bottom: 10px solid rgba(50,50,50,1);
+}
+
+.container-1_1 {
+    width: 91.5vw;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    margin-left: 3.5vw;
+    margin-top: 3vh;
+    align-items: center;
+}
+
+.container-1_1_1 {
+    width: 140px;
+    height: 45px;
+    background-image: url(images/Logonetflix.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container-1_1_2 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.lang {
+    color: rgba(256, 256, 256, 0.85);
+    border-radius: 1px;
+    border-color: 1px solid rgba(256, 256, 256, 0.8);
+    height: inherit;
+    width: 90px;
+    padding-left: 5px;
+    background-color: rgb(0,0,0,0.8);
+    -webkit-appearance:none;
+    appearance: none;
+    font-size: 14px;
+    margin-right: 2vw;
+}
+.container-1_1_2_1 {
+    width: 85px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: rgb(229, 9, 20);
+    color:white;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container-1_2 {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 160px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-1_2_1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin: auto;
+    width: 550px;
+    text-align: center;
+}
+
+.container-1_2_2 {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.container-1_2_3 {
+    font-size: 18px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+}
+
+.container-1_2_4 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.email-input {
+    width: 420px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    outline: none;
+    border: 0px solid gray;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: none;
+}
+.email-input:focus {
+    outline: 2px solid green;
+}
+
+.email-input:invalid {
+    outline: 2px solid orange;
+}
+
+.container-1_2_4_1 {
+    width: 220px;
+    height: inherit;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.container-1_2_4_1:hover {
+    background-color: rgb(244, 3, 15);
+}
+
+.container-2 {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid rgba(50,50,50,1);
+}
+
+.video-1 {
+    width: 45vw;
+}
+.container-2_1 {
+    width: fit-content;
+    height: fit-content;
+}
+
+.container-2_1_1 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 37vw;
+    padding-bottom: 30px;
+}
+
+.container-2_1_2 {
+    font-size: 25px;
+    width:37vw;
+    line-height: 1.4;
+}
+
+.container-2_2 {
+    width:fit-content;
+    height:fit-content;
+}
+
+.container-3 {
+    height: 114vh;
+    background-color: black;
+    width: 100vw;
+    border-bottom: 10px solid rgba(50,50,50,1);
+}
+
+.container-3_1 {
+    font-size: 50px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    padding-top: 9vh;
+}
+
+.container-3_2 {
+    height: fit-content;
+    width: fit-content;
+    padding-top: 6vh;
+    margin: auto;
+}
+.container-3_2_1{
+    width: 57vw;
+    height: fit-content;
+    background-color: rgba(50,50,50,1);
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.container-3_2_1_1 {
+    font-size: 25px;
+    font-weight: 100;
+    height: 9vh;
+    line-height: 9vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.container-3_3 {
+   
+    width: fit-content;
+    margin-top: 8vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-4 {
+    width:82vw;
+    padding-left: 18vw;
+    height: 45vh;
+    padding-top: 10vh;
+    background-color: black;
+    color: gray;
+    font-size: 13px;
+}
+
+.container-4_1 {
+    font-size: 16px;
+}
+
+.container-4_2 {
+    padding-top: 2.8vw;
+    padding-bottom: 2.8vw;
+    width: fit-content;
+}
+
+.container-4_2_1 {
+    display: flex;
+    width: 70vw;
+}
+
+.container-4_2_1_1 {
+    width:15vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
+.container-4_2_1_1:hover {
+    text-decoration: underline;
+}
+
+.lang2 {
+    height: 55px;
+    width: 120px;
+    color: gray;
+    padding-left: 10px;
+}
+
+.container-4_4 {
+    padding-top: 4vh;
+    width: fit-content;
+}
